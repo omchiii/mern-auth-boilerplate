@@ -5,7 +5,7 @@ import axios from "axios";
  */
 export const client = axios.create({
   // TODO: Change it to use .env or config file
-  baseURL: "https://mernauthboilerplateob.herokuapp.com/",
+  baseURL: "http://localhost:5000",
 
 });
 
